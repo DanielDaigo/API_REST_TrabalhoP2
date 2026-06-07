@@ -199,17 +199,4 @@ Os testes validam os códigos de resposta HTTP e os dados retornados para todas 
 - `PUT /items/{item_id}`
 - `DELETE /items/{item_id}`
 
-## Publicação no GitHub
-
-Após validar a aplicação, publique o projeto em um repositório GitHub com:
-
-```powershell
-git init
-git add .
-git commit -m "Implementa API REST com FastAPI, Docker e testes"
-git branch -M main
-git remote add origin <URL_DO_REPOSITORIO>
-git push -u origin main
-```
-
 </contents>
